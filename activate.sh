@@ -1,0 +1,1 @@
+source `find /Users/$USER -maxdepth 2 -type d -name '.*' 2>/dev/null | grep virtualenv | head -1`/${PWD##*/}/bin/activate
